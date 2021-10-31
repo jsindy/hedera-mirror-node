@@ -36,3 +36,5 @@ FROM gcr.io/cloud-marketplace-tools/k8s/deployer_helm
 COPY --from=build /tmp/charts/hedera-mirror-node.tar.gz /data/chart
 COPY --from=build /tmp/schema-test.yaml /data-test/schema.yaml
 COPY --from=build /tmp/schema.yaml /data
+
+ENV WAIT_FOR_READY_TIMEOUT 1800
