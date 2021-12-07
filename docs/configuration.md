@@ -236,7 +236,7 @@ Name                                                            | Default    | D
 `hedera.mirror.monitor.nodes[].accountId`                       | ""         | The main node's account ID
 `hedera.mirror.monitor.nodes[].host`                            | ""         | The main node's hostname
 `hedera.mirror.monitor.nodes[].port`                            | 50211      | The main node's port
-`hedera.mirror.monitor.nodeValidation.enabled`                  | true       | Whether to validate and remove invalid or down nodes permanently before publishing
+`hedera.mirror.monitor.nodeValidation.enabled`                  | false      | Whether to validate and remove invalid or down nodes permanently before publishing
 `hedera.mirror.monitor.nodeValidation.frequency`                | 5m         | The amount of time between validations of the network.
 `hedera.mirror.monitor.nodeValidation.maxAttempts`              | 20         | The number of times the monitor should attempt to receive a healthy response from a node before marking it as unhealthy.
 `hedera.mirror.monitor.nodeValidation.maxBackoff`               | 2s         | The maximum amount of time to wait in between attempts when trying to validate a node

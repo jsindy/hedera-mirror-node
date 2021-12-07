@@ -32,7 +32,7 @@ import org.springframework.validation.annotation.Validated;
 @Validated
 public class NodeValidationProperties {
 
-    private boolean enabled = true;
+    private boolean enabled = false;
 
     @DurationMin(seconds = 30)
     @NotNull
