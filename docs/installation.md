@@ -21,7 +21,7 @@ compile a runnable Mirror Node JAR file in the `target` directory.
 ### Database Setup
 
 In addition to OpenJDK 11, you will need to install a database and initialize it. The Mirror Node
-utilizes [PostgreSQL](https://postgresql.org) v9.6 or [TimescaleDB](https://docs.timescale.com/latest/main) depending on
+utilizes [PostgreSQL](https://postgresql.org) v14.1 or [TimescaleDB](https://docs.timescale.com/latest/main) depending on
 the version of its database schema.
 
 For both databases, since [Flyway](https://flywaydb.org) will manage the database schema, the only required step is to

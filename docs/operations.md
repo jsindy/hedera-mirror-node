@@ -224,14 +224,15 @@ should be able to ingest one month's worth of mainnet data in less than 1.5 days
 
    - Resource allocation
 
-       Run a PostgreSQL 13 instance with at least 4 vCPUs and 16 GB memory.
+       Run a PostgreSQL 14 instance with at least 4 vCPUs and 16 GB memory.
 
    - Configuration:
 
-       Set the following parameters. Note the unit is kilobytes.
+       Set the following parameters.
 
-       - max_wal_size = 8388608
-       - work_mem = 262144
+       - checkpoint_timeout = 30min
+       - max_wal_size = 32GB
+       - work_mem = 512MB
 
 ## Monitor
 

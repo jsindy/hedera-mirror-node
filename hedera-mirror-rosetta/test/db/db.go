@@ -209,7 +209,7 @@ func createPostgresDb(pool *dockertest.Pool, network *dockertest.Network) (*dock
 	options := &dockertest.RunOptions{
 		Name:       getDbHostname(network.Network),
 		Repository: "postgres",
-		Tag:        "9.6-alpine",
+		Tag:        "14.1-alpine",
 		Env:        env,
 		Networks:   []*dockertest.Network{network},
 	}

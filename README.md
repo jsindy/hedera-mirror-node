@@ -85,9 +85,9 @@ to understanding the mirror node operations.
 - [Spring](https://spring.io/quickstart)
   - [Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html#getting-started)
   - [Externalized Configurations](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-external-config)
-- [PostgreSQL](https://www.postgresql.org/docs/9.6/index.html)
-  - [SQL commands](https://www.postgresql.org/docs/9.6/sql-commands.html)
-  - [Client Application & Utilities](https://www.postgresql.org/docs/9.6/reference-client.html)
+- [PostgreSQL](https://www.postgresql.org/docs/14.1/index.html)
+  - [SQL commands](https://www.postgresql.org/docs/14.1/sql-commands.html)
+  - [Client Application & Utilities](https://www.postgresql.org/docs/14.1/reference-client.html)
 - [Go](https://golang.org/)
 
 ### Prerequisite Tools
