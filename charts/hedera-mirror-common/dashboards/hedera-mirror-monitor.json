@@ -950,7 +950,7 @@
       "timeFrom": null,
       "timeRegions": [],
       "timeShift": null,
-      "title": "Submit Latency",
+      "title": "Publish Latency",
       "tooltip": {
         "shared": true,
         "sort": 2,
@@ -1051,7 +1051,7 @@
       "timeFrom": null,
       "timeRegions": [],
       "timeShift": null,
-      "title": "Submit to Handle Latency",
+      "title": "Publish to Handled Latency",
       "tooltip": {
         "shared": true,
         "sort": 2,
