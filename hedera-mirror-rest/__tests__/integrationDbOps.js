@@ -152,7 +152,7 @@ const flywayMigrate = async (dbSessionConfig) => {
       "url": "jdbc:postgresql://${dbSessionConfig.host}:${dbSessionConfig.port}/${dbSessionConfig.name}",
       "user": "${dbAdminUser}"
     },
-    "version": "8.4.0",
+    "version": "8.4.1",
     "downloads": {
       "storageDirectory": "${flywayDataPath}"
     }
