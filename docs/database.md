@@ -40,7 +40,6 @@ pg_dump -h $OLD_POSTGRESQL_DB_IP -U mirror_node \
   -a \
   -f data_dump \
   -T 'flyway*' \
-  -T transaction_type \
   mirror_node
 ```
 
